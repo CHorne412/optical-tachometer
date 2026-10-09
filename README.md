@@ -51,7 +51,7 @@ to different hardware means repeating the calibration, not just recompiling.
 
 ## Usage
 
-1. Open `RPM_Speed_Final.ino` in the Arduino IDE.
+1. Open `optical-tachometer.ino` in the Arduino IDE.
 2. Wire the sensor's analog output to `A0`.
 3. Upload, then open the Serial Monitor at **9600 baud**.
 
