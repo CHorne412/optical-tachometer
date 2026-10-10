@@ -1,5 +1,7 @@
 # Optical Tachometer
 
+[![build](https://github.com/CHorne412/optical-tachometer/actions/workflows/build.yml/badge.svg)](https://github.com/CHorne412/optical-tachometer/actions/workflows/build.yml)
+
 Measures the speed of a spinning motor shaft in real time using a TCRT5000
 reflective optical sensor and an Arduino, and reports RPM over the serial
 console.
@@ -51,7 +53,7 @@ to different hardware means repeating the calibration, not just recompiling.
 
 ## Usage
 
-1. Open `optical-tachometer.ino` in the Arduino IDE.
+1. Open `optical-tachometer/optical-tachometer.ino` in the Arduino IDE.
 2. Wire the sensor's analog output to `A0`.
 3. Upload, then open the Serial Monitor at **9600 baud**.
 
